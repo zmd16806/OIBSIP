@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #971c13;
+    padding: 20px;
+    text-align: center;
+    color: azure;
+    text-decoration-style: double;
+    font-style: oblique;
+}
+
+.intro img {
+    border-radius: 40%;
+    width: 150px;
+    height: 200px;
+}
+
+.contact, .samples {
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+
+}
+
+.contact h2, .samples h2, .samples h3 {
+    margin-top: 0;
+    color: antiquewhite;
+    font-style: oblique;
+    text-decoration: underline;
+}
+.projects {
+    padding:20px;
+    background-color: #3d85d3;
+    text-decoration-style: double;
+}
+.projects h4{
+    font-style: oblique;
+    font-size: x-large;
+    text-decoration: underline;
+}
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin-bottom: 10px;
+}
+nav {
+    background-color: #333; 
+    overflow: hidden; 
+  }
+  
+  nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+  }
+  
+  nav li {
+    display: inline; 
+  }
+  
+  nav a {
+    display: inline-block; 
+    padding: 14px 20px; 
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  nav a:hover {
+    background-color: #ddd; 
+    color: black; 
+  }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
